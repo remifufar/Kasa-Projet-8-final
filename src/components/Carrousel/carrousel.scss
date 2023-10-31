@@ -1,0 +1,52 @@
+.image-counter {
+    position: absolute;
+    font-size: 20px;
+    bottom: 0;
+    left: 50%;
+    color: white;
+}
+
+.gallery {
+    position: relative;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 425px;
+    object-fit: cover;
+    border-radius: 25px;
+    transition: -webkit-transform .5s ease-in-out;
+    z-index: 0;
+}
+
+.svg-left {
+    font-size: 100px;
+    position: absolute;
+    top: 168px;
+    left: 25px;
+    z-index: 1;
+    color: white;
+}
+
+.svg-right {
+    color: white;
+    top: 168px;
+    right: 25px;
+    position: absolute;
+    z-index: 1;
+    font-size: 100px;
+}
+@media(max-width: 768px){
+.svg-right{
+    font-size: 50px;
+    top: 50%;
+}
+.svg-left{
+    font-size: 50px;
+    top: 50%;
+}
+.gallery{
+    width: 97%;
+    margin: auto;
+}
+}

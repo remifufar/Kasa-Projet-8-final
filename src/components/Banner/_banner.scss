@@ -1,0 +1,42 @@
+.banner-container{
+    width: 100%;
+    border-radius: 30px ;
+     position: relative;
+     display:flex;
+     align-items: center;
+     justify-content: center;
+    img{
+       
+        width: 100%;
+        object-fit: cover;
+        height: 223px;
+        border-radius: 25px;
+    }
+
+    .banner_title{
+        position: absolute;
+        color:white;
+        font-size: 40px;
+        z-index: 1;
+    }
+}
+.banner-container::after{
+    position: absolute;
+    content: "";
+    background-color: black;
+    inset: 0;
+    opacity: 0.3;
+    border-radius: 25px;
+}
+    @media(max-width: 768px){
+        .banner_title
+        {
+            font-size: 28px !important;
+            left: 25px;
+        }
+        .banner-container{
+            margin: auto;
+        width: 96%;
+        }
+      
+        }

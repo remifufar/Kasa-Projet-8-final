@@ -1,0 +1,17 @@
+.conteneur_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+background-color: black;
+height: 200px;
+
+    img{
+        height: 50px;
+    }
+    p{
+        color: white;
+        font-size: 24px;
+    }
+
+}

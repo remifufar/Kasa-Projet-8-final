@@ -1,0 +1,12 @@
+.main{
+margin-left: 75px;
+margin-right: 75px;
+font-family: 'Montserrat', sans-serif;
+}
+
+@media(max-width: 768px){
+.main{
+    margin: 0px;
+}
+
+}
