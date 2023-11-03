@@ -36,14 +36,17 @@
 @media(max-width: 768px){
     .conteneur{
         margin: 23px;
-        
+         ul{
+        display: flex;
+        gap: 20px;
+    }
     }
     .img-banner{
         width: 9rem !important;
     }
- 
+   
     a{
-        font-size: 18px !important;
+        font-size: 14px !important;
         
     }
 }
