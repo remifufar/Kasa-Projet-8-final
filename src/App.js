@@ -21,6 +21,7 @@ function App() {
             <Route path="/About" element={<About />} />
             <Route exact path="/Appartement/:id" element={<Appartement />} />
             <Route path="*" element={<Error />} />
+            
           </Routes>
 
         </main>
